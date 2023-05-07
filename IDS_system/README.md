@@ -9,7 +9,7 @@ This project is about capturing packets flow through a network interface,
     CICFlowMeter-4.0.
     and then analyze the csv file with an XGBoost model trained on CIC-IDS2017 dataset. 
 
-FOr more infomation on CICFlowMeter please follow the link (http://www.unb.ca/cic).
+For more infomation on CICFlowMeter please follow the link (http://www.unb.ca/cic).
 
 
 <!------------------------------------------------------------------------------------------------->
