@@ -11,6 +11,14 @@ This project is about capturing packets flow through a network interface,
 
 For more infomation on CICFlowMeter please follow the link (http://www.unb.ca/cic).
 
+This project is developed and tested on Ubuntu 22. 
+This project requries TCPdump, and TCPreplay which can be installed via 
+```sudo apt install tcpdump```
+```sudo apt install tcpreplay```
+
+Python requirements for this project can be installed via the requirements.txt file 
+in this repository.
+
 
 <!------------------------------------------------------------------------------------------------->
 # Usage
