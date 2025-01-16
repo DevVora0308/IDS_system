@@ -25,37 +25,36 @@ This project implements an Intrusion Detection System (IDS) that processes netwo
      - pip install -r requirements.txt
    
 3. Run the necessary scripts to preprocess data:
-    pip install -r requirements.txt
+     - pip install -r requirements.txt
 
 3. Run Preprocessing Scripts
 After cloning the repository and installing dependencies, run the preprocessing scripts to convert PCAP files to CSV format:
 
-  - Convert PCAP to CSV:
-      ./convert_pcap_csv.sh
+    * Convert PCAP to CSV:
+         - ./convert_pcap_csv.sh
 
-  - Clean CSV Data:
-      ./clean_pcap_csv.sh
+    * Clean CSV Data:
+         - ./clean_pcap_csv.sh
 
 4. Model Training and Evaluation
   Once the data is processed, use the classifier to train and evaluate the machine learning model:
 
-    python model.py
+     - python model.py
   The script will train the model on the processed data and evaluate its performance.
 
 
 6. Usage Guide
 To use the Intrusion Detection System:
-
-Place your network capture (PCAP) files in the pcap folder.
-Run the scripts to convert and clean the data.
-Train and evaluate the model using the model.py script.
+- Place your network capture (PCAP) files in the pcap folder.
+- Run the scripts to convert and clean the data.
+- Train and evaluate the model using the model.py script.
 
 6. File Structure
-# convert_pcap_csv.sh: Converts network capture (PCAP) files to CSV format.
-clean_pcap_csv.sh: Cleans and formats the converted CSV data.
-model.py: Contains the machine learning model for intrusion detection.
-classifier.ipynb: A Jupyter notebook for exploratory data analysis and model testing.
-requirements.txt: Lists the Python dependencies.
+* convert_pcap_csv.sh: Converts network capture (PCAP) files to CSV format.
+* clean_pcap_csv.sh: Cleans and formats the converted CSV data.
+* model.py: Contains the machine learning model for intrusion detection.
+* classifier.ipynb: A Jupyter notebook for exploratory data analysis and model testing.
+* requirements.txt: Lists the Python dependencies.
 
 8. Logs and Debugging
 Execution time and debugging logs are stored in the logs folder. You can view detailed logs for troubleshooting or performance analysis.
