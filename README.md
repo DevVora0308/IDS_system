@@ -27,7 +27,7 @@ This project implements an Intrusion Detection System (IDS) that processes netwo
 3. Run the necessary scripts to preprocess data:
      - pip install -r requirements.txt
 
-3. Run Preprocessing Scripts
+4. Run Preprocessing Scripts
 After cloning the repository and installing dependencies, run the preprocessing scripts to convert PCAP files to CSV format:
 
     * Convert PCAP to CSV:
@@ -36,11 +36,11 @@ After cloning the repository and installing dependencies, run the preprocessing 
     * Clean CSV Data:
          - ./clean_pcap_csv.sh
 
-4. Model Training and Evaluation
+5. Model Training and Evaluation
   Once the data is processed, use the classifier to train and evaluate the machine learning model:
 
      - python model.py
-  The script will train the model on the processed data and evaluate its performance.
+  \The script will train the model on the processed data and evaluate its performance.
 
 
 6. Usage Guide
