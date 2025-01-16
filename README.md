@@ -40,7 +40,7 @@ After cloning the repository and installing dependencies, run the preprocessing 
   Once the data is processed, use the classifier to train and evaluate the machine learning model:
 
      - python model.py
-  < br / >The script will train the model on the processed data and evaluate its performance.
+  <br/>The script will train the model on the processed data and evaluate its performance.
 
 
 6. Usage Guide
